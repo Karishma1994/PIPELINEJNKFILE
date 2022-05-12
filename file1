@@ -1,1 +1,22 @@
-scripting files
+<settings>
+ ...
+ <profiles>
+   ...
+   <profile>
+     <id>myprofile</id>
+     <repositories>
+       <repository>
+         <id>my-repo2</id>
+         <name>your custom repo</name>
+         <url>http://jarsm2.dyndns.dk</url>
+       </repository>
+     </repositories>
+   </profile>
+   ...
+ </profiles>
+ 
+ <activeProfiles>
+   <activeProfile>myprofile</activeProfile>
+ </activeProfiles>
+ ...
+</settings>
